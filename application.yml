@@ -16,7 +16,7 @@ eureka:
       defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/,http://eureka3:8763/eureka/
 
 
-
+foo: what's your name?
 
 
 
