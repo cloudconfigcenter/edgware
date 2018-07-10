@@ -1,0 +1,36 @@
+
+erver:
+  port: 8888
+
+management:
+  security:
+    enabled: false
+
+
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10  # 官方不建议修改, 小于30则可能不会触发原本应该触发的self-preservation模式
+  client:
+    registryFetchIntervalSeconds: 5  # 每30秒更新一次
+    service-url:
+      defaultZone: http://eureka1:8761/eureka/,http://eureka2:8762/eureka/,http://eureka3:8763/eureka/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
